@@ -1,0 +1,103 @@
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #1a1a2e;
+}
+
+.searchForm {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  background-color: #e94560;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #c73652;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+  color: #1a1a2e;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #999;
+  margin-bottom: 0.8rem;
+}
+
+.sinopsis {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.btnLink {
+  background: none;
+  border: 1px solid #e94560;
+  color: #e94560;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.btnLink:hover {
+  background-color: #e94560;
+  color: white;
+}
+
+.adaptaciones {
+  margin-top: 1rem;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.adaptacion {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  color: #444;
+}
+
+.year {
+  color: #999;
+  font-size: 0.9rem;
+}
