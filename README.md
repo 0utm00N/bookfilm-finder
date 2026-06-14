@@ -9,6 +9,9 @@ Full-stack web app to find the books behind movies and vice versa.
 - **Frontend** — React + Vite
 
 ## Architecture
+
+React (port 5173) → Node.js Gateway (port 3000) → Java Backend (port 8080) → PostgreSQL
+
 ## Features
 
 - Search books and movies by title
