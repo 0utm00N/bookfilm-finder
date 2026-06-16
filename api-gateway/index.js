@@ -5,6 +5,7 @@ require('dotenv').config();
 const librosRouter = require('./routes/libros');
 const peliculasRouter = require('./routes/peliculas');
 const adaptacionesRouter = require('./routes/adaptaciones');
+const busquedaRouter = require('./routes/busqueda');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,6 +16,7 @@ app.use(express.json());
 app.use('/api/libros', librosRouter);
 app.use('/api/peliculas', peliculasRouter);
 app.use('/api/adaptaciones', adaptacionesRouter);
+app.use('/api/busqueda', busquedaRouter);
 
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date() });

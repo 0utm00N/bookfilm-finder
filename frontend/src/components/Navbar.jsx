@@ -10,6 +10,7 @@ function Navbar() {
       <div className={styles.links}>
         <Link to="/libros">Libros</Link>
         <Link to="/peliculas">Películas</Link>
+        <Link to="/busqueda">Buscar</Link>
       </div>
     </nav>
   );
